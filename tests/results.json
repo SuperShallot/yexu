@@ -1,0 +1,228 @@
+{
+  "browser_measurements": {
+    "case": "Lumina",
+    "source_url": "https://github.com/pbakaus/impeccable/tree/main/demos/landing-demo",
+    "source_html_sha256": "357029f5aa688d9eb7c6d31a52a3b8f9c4784186bccc1517fc2efde1f09db700",
+    "environment": "Microsoft Edge (Chromium), Playwright, offline, fallback fonts",
+    "device_emulation": "viewport_size_only",
+    "first_tab_matches_focus_visible_method": "One initial Tab, then document.activeElement.matches(':focus-visible')",
+    "viewports": [
+      {
+        "viewport_css_px": {
+          "width": 1440,
+          "height": 900
+        },
+        "before": {
+          "horizontal_overflow_css_px": 0,
+          "hero_primary_cta_bottom_css_px": 712,
+          "navigation_link_heights_css_px": [
+            22,
+            22,
+            22,
+            22,
+            22,
+            22,
+            40
+          ],
+          "navigation_min_height_css_px": 22,
+          "placeholder_links": 10,
+          "main_landmarks": 0,
+          "first_tab_matches_focus_visible": true
+        },
+        "after": {
+          "horizontal_overflow_css_px": 0,
+          "hero_primary_cta_bottom_css_px": 716,
+          "navigation_link_heights_css_px": [
+            44,
+            44,
+            44,
+            44,
+            44,
+            44,
+            44
+          ],
+          "navigation_min_height_css_px": 44,
+          "placeholder_links": 10,
+          "main_landmarks": 1,
+          "first_tab_matches_focus_visible": true
+        },
+        "sampled_color_tokens_equal": true,
+        "sampled_heading_paragraph_link_text_equal": true
+      },
+      {
+        "viewport_css_px": {
+          "width": 768,
+          "height": 900
+        },
+        "before": {
+          "horizontal_overflow_css_px": 0,
+          "hero_primary_cta_bottom_css_px": 576,
+          "navigation_link_heights_css_px": [
+            22,
+            22,
+            22,
+            22,
+            22,
+            43,
+            61
+          ],
+          "navigation_min_height_css_px": 22,
+          "placeholder_links": 10,
+          "main_landmarks": 0,
+          "first_tab_matches_focus_visible": true
+        },
+        "after": {
+          "horizontal_overflow_css_px": 0,
+          "hero_primary_cta_bottom_css_px": 576,
+          "navigation_link_heights_css_px": [
+            44,
+            44,
+            44,
+            44,
+            44,
+            44,
+            61
+          ],
+          "navigation_min_height_css_px": 44,
+          "placeholder_links": 10,
+          "main_landmarks": 1,
+          "first_tab_matches_focus_visible": true
+        },
+        "sampled_color_tokens_equal": true,
+        "sampled_heading_paragraph_link_text_equal": true
+      },
+      {
+        "viewport_css_px": {
+          "width": 375,
+          "height": 812
+        },
+        "before": {
+          "horizontal_overflow_css_px": 330,
+          "hero_primary_cta_bottom_css_px": 781,
+          "navigation_link_heights_css_px": [
+            22,
+            22,
+            22,
+            22,
+            22,
+            43,
+            61
+          ],
+          "navigation_min_height_css_px": 22,
+          "placeholder_links": 10,
+          "main_landmarks": 0,
+          "first_tab_matches_focus_visible": true
+        },
+        "after": {
+          "horizontal_overflow_css_px": 0,
+          "hero_primary_cta_bottom_css_px": 512,
+          "navigation_link_heights_css_px": [
+            44,
+            44,
+            44,
+            44,
+            44,
+            44,
+            44
+          ],
+          "navigation_min_height_css_px": 44,
+          "placeholder_links": 10,
+          "main_landmarks": 1,
+          "first_tab_matches_focus_visible": true
+        },
+        "sampled_color_tokens_equal": true,
+        "sampled_heading_paragraph_link_text_equal": true
+      },
+      {
+        "viewport_css_px": {
+          "width": 320,
+          "height": 700
+        },
+        "before": {
+          "horizontal_overflow_css_px": 385,
+          "hero_primary_cta_bottom_css_px": 882,
+          "navigation_link_heights_css_px": [
+            22,
+            22,
+            22,
+            22,
+            22,
+            43,
+            61
+          ],
+          "navigation_min_height_css_px": 22,
+          "placeholder_links": 10,
+          "main_landmarks": 0,
+          "first_tab_matches_focus_visible": true
+        },
+        "after": {
+          "horizontal_overflow_css_px": 0,
+          "hero_primary_cta_bottom_css_px": 592,
+          "navigation_link_heights_css_px": [
+            44,
+            44,
+            44,
+            44,
+            44,
+            44,
+            44
+          ],
+          "navigation_min_height_css_px": 44,
+          "placeholder_links": 10,
+          "main_landmarks": 1,
+          "first_tab_matches_focus_visible": true
+        },
+        "sampled_color_tokens_equal": true,
+        "sampled_heading_paragraph_link_text_equal": true
+      }
+    ]
+  },
+  "routing_retest": [
+    {
+      "prompt": "看看 Lumina 为什么在手机上不好用，给我问题和修改建议。",
+      "route": "只读审查",
+      "evidence": "read_only_browser_audit",
+      "observed_action": "测量手机宽度、焦点和导航。输出问题和修正建议，项目文件保持只读。"
+    },
+    {
+      "prompt": "保持 Lumina 的品牌和内容，直接修手机导航溢出和焦点。",
+      "route": "局部打磨",
+      "evidence": "routing_only",
+      "observed_action": "直接修复局部，复测窄屏和键盘。"
+    },
+    {
+      "prompt": "做 Serenity Spa 的一个新着陆页。",
+      "route": "完整流程",
+      "evidence": "routing_only",
+      "observed_action": "确认访客任务和缺少的预约资料，再策划、出稿并等待选稿。"
+    },
+    {
+      "prompt": "这个已经上线的网页帮我整体做成档案馆风格。",
+      "route": "完整流程",
+      "evidence": "routing_only",
+      "observed_action": "先看现有页面，确认视觉调整是否会改变主要浏览流程，再策划、出稿并等待选稿。"
+    },
+    {
+      "prompt": "需求和策划已确认。按我刚选定的、覆盖本次范围的完整页面稿实现。",
+      "route": "直接落地",
+      "evidence": "routing_only",
+      "observed_action": "核对所选稿覆盖范围，从制作规范开始。缺稿时补问稿件。"
+    },
+    {
+      "prompt": "把现有网页做得高级些。",
+      "route": "澄清范围",
+      "evidence": "routing_only",
+      "observed_action": "先看现状，再问一个能区分局部打磨与整体重做的问题。"
+    }
+  ],
+  "upstream_test_reference": {
+    "case": "Serenity Spa",
+    "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill/blob/main/src/ui-ux-pro-max/scripts/tests/test_design_system_mode.py",
+    "source_file_sha256": "95ad2c154349f7021f55a558f8dcdd71df1a24fcf531a4364a8e49526a0865ef",
+    "test_group": "TestLightResultOutputCoherence",
+    "passed": 4,
+    "total": 4,
+    "note": "上游单测结果。页序只试跑了需求和策划，没有确认设计稿或实现 Serenity Spa 页面。"
+  }
+}
